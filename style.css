@@ -60,7 +60,7 @@ button{
     background-color: #E02C6D;
     color: white;
 }
-.container .img{
+.image{
     background-image: url(images/Circle\ design.svg);
     background-repeat: no-repeat;
     padding-right: 50px;
@@ -209,9 +209,17 @@ button{
     .container{
         flex-direction: column;
         margin-top: -90px;
+        
     }
-    .img .picture{
+    .image .picture{
         width: 250px;
         height: 250px;
     }
+    .image{
+        background-position: center;
+    }
+    
 }
+    
+    
+    
