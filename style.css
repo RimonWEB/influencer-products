@@ -217,6 +217,7 @@ button{
     }
     .image{
         background-position: center;
+        margin-top: 40px;
     }
     
 }
