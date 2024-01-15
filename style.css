@@ -208,6 +208,7 @@ button{
     }
     .container{
         flex-direction: column;
+        margin-top: -90px;
     }
     .img .picture{
         width: 250px;
