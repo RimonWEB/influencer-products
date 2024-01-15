@@ -76,7 +76,7 @@ button{
 }
 .sponsors img{
     width: 150px;
-    height: 60px;
+    height: 65px;
     padding: 20px;
 }
 
@@ -177,3 +177,40 @@ button{
 }
 
 
+
+
+
+/* Mobile media querry */
+
+@media screen and (max-width:576px){
+    
+    .navber{
+        flex-direction: column;
+    }
+    .popular{
+        padding-left: 15px;
+        grid-template-columns: repeat(1,1fr);
+    }
+    .section2{
+        flex-direction: column;
+        padding-left: 15px;
+    }
+    .rest img{
+        width: 345px;
+    }
+    .navber ul{
+        flex-direction: column;
+        margin-top: 20px;
+    }
+    .section2 .rest1{
+        width: 370px;
+        
+    }
+    .container{
+        flex-direction: column;
+    }
+    .img .picture{
+        width: 250px;
+        height: 250px;
+    }
+}
